@@ -492,7 +492,6 @@ body {
 }
 @media (min-width: 768px) and (min-width: 1100px) {
   .grid-container {
-    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "a a b e" "c d d e";
   }

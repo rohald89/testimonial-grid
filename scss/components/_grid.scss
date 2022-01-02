@@ -9,7 +9,6 @@
 
     @include mq {
         @media ($break-l) {
-            grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(4, 1fr);
             grid-template-areas: 
                 "a a b e"
