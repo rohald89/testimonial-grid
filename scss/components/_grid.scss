@@ -1,0 +1,54 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+.grid-container{
+    display: grid;
+    gap: toRem(30) toRem(24);
+    margin: toRem(71) toRem(24);
+    max-width: toRem(1110);
+
+    @include mq {
+        @media ($break-l) {
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: 
+                "a a b e"
+                "c d d e"
+        }
+    }
+    .area-1 {
+        @include mq {
+            @media ($break-l) {
+                grid-area: a;
+            }
+        }
+    }
+    .area-2 {
+        @include mq {
+            @media ($break-l) {
+                grid-area: b;
+            }
+        }
+    }
+    .area-3 {
+        @include mq {
+            @media ($break-l) {
+                grid-area: c;
+            }
+        }
+    }
+    .area-4 {
+        @include mq {
+            @media ($break-l) {
+                grid-area: d;
+            }
+        }
+    }
+    .area-5 {
+        @include mq {
+            @media ($break-l) {
+                grid-area: e;
+            }
+        }
+    }
+}

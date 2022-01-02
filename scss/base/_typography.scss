@@ -1,0 +1,43 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: $light-grey-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+
+.fs-200 {
+    font-size: toRem(11);
+}
+.fs-300 {
+    font-size: toRem(13);
+    line-height: toRem(18);
+}
+.fs-400 {
+    font-size: toRem(20);
+    line-height: toRem(24);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bg-dark { background-color: $dark-blue;}
+.bg-grey { background-color: $grey-blue;}
+.bg-purple { background-color: $violet;}
+.bg-white { background-color: $white;}
+
+.text-dark { color: $dark-blue;}
+.text-dark-half { 
+    color: $dark-blue;
+    opacity: 0.5;
+}
+.text-light { color: $white;}
+.text-light-half { 
+    color: $white;
+    opacity: 0.5;
+}

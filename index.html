@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Testimonials grid</title>
@@ -16,92 +19,92 @@
 </head>
 <body>
   <div class="grid-container">
-    <section class="card">
+    <article class="card text-light bg-purple quote area-1">
       <div class="user">
-        <img src="./images/image-daniel.jpg" alt="" class="user__image">
+        <img src="./images/image-daniel.jpg" alt="" class="user__image border-purple">
         <div class="user__info">
-          <h2 class="user__name">Daniel Clifford</h2>
-          <p class="user__title">Verified Graduate</p>
+          <h2 class="user__name fs-300">Daniel Clifford</h2>
+          <p class="user__title fs-200 text-light-half">Verified Graduate</p>
         </div>
       </div>
       <div class="card__content">
-        <p class="card__intro">
+        <p class="card__intro bold fs-400">
           I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny's worth.
         </p>
-        <p class="card__text">
+        <p class="card__text fs-300 text-light-half">
           " I was an EMT for many years before I joined the bootcamp. I've been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I've successfully switched careers, working as a Software Engineer at a VR startup. "
         </p>
-    </section> <!-- end of card -->
+    </article> <!-- end of card -->
 
-    <section class="card">
+    <article class="card text-light bg-grey area-2">
       <div class="user">
         <img src="./images/image-jonathan.jpg" alt="" class="user__image">
         <div class="user__info">
-          <h2 class="user__name">Jonathan Walters</h2>
-          <p class="user__title">Verified Graduate</p>
+          <h2 class="user__name fs-300">Jonathan Walters</h2>
+          <p class="user__title fs-200 text-light-half">Verified Graduate</p>
         </div>
       </div>
       <div class="card__content">
-        <p class="card__intro">
+        <p class="card__intro bold fs-400">
           The team was very supportive and kept me motivated
         </p>
-        <p class="card__text">
+        <p class="card__text fs-300 text-light-half">
           " I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
           for a big company. This was one of the best investments I've made in myself. "
         </p>
-    </section>
+    </article>
 
-    <section class="card">
+    <article class="card text-dark bg-white area-3">
       <div class="user">
         <img src="./images/image-jeanette.jpg" alt="" class="user__image">
         <div class="user__info">
-          <h2 class="user__name">Jeanette Harmon</h2>
-          <p class="user__title">Verified Graduate</p>
+          <h2 class="user__name fs-300">Jeanette Harmon</h2>
+          <p class="user__title fs-200 text-dark-half">Verified Graduate</p>
         </div>
       </div>
       <div class="card__content">
-        <p class="card__intro">
+        <p class="card__intro bold fs-400">
           An overall wonderful and rewarding experience
         </p>
-        <p class="card__text">
+        <p class="card__text fs-300 text-dark-half">
           " Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. "
         </p>
-    </section>
+    </article>
 
-    <section class="card">
+    <article class="card bg-dark text-light area-4">
       <div class="user">
-        <img src="./images/image-patrick.jpg" alt="" class="user__image">
+        <img src="./images/image-patrick.jpg" alt="" class="user__image border-purple-dark">
         <div class="user__info">
-          <h2 class="user__name">Patrick Abrams</h2>
-          <p class="user__title">Verified Graduate</p>
+          <h2 class="user__name fs-300">Patrick Abrams</h2>
+          <p class="user__title fs-200 text-light-half">Verified Graduate</p>
         </div>
       </div>
       <div class="card__content">
-        <p class="card__intro">
+        <p class="card__intro bold fs-400">
           Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
         </p>
-        <p class="card__text">
+        <p class="card__text fs-300 text-light-half">
           " The staff seem genuinely concerned about my progress which I find really refreshing. The program 
           gave me the confidence necessary to be able to go out in the world and present myself as a capable 
           junior developer. The standard is above the rest. You will get the personal attention you need from 
           an incredible community of smart and amazing people. "
         </p>
-    </section>
+    </article>
 
 
-    <section class="card">
+    <article class="card text-dark bg-white area-5">
       <div class="user">
         <img src="./images/image-kira.jpg" alt="" class="user__image">
         <div class="user__info">
-          <h2 class="user__name">Kira Whittle</h2>
-          <p class="user__title">Verified Graduate</p>
+          <h2 class="user__name fs-300">Kira Whittle</h2>
+          <p class="user__title fs-200 text-dark-half">Verified Graduate</p>
         </div>
       </div>
       <div class="card__content">
-        <p class="card__intro">
+        <p class="card__intro bold fs-400">
           Such a life-changing experience. Highly recommended!
         </p>
-        <p class="card__text">
+        <p class="card__text fs-300 text-dark-half">
           " Before joining the bootcamp, I've never written a line of code. I needed some structure from 
           professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
           student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
@@ -111,14 +114,8 @@
           experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
           100% recommend! "
         </p>
-    </section>
+    </article>
 
-  </div>
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
 </html>
