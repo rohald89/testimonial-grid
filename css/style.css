@@ -527,6 +527,7 @@ body {
   padding: 2rem;
   padding-top: 1.625rem;
   position: relative;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
 }
 .card__intro {
   margin-bottom: 1rem;
